@@ -1,16 +1,22 @@
 ## Overview
 This project implements a policy management system for an insurance company. it manages policyholders, products, and payments
 
-### policyholder.py
+## File
+1. policyholder.py
+2. product.py
+3. payment.py
+4. demonstration.py
+
+### policyholder.py: 
 Contains the Policyholder class for managing policyholders. This includes registration, suspension, reactivation, and handling payments.
 
-### product.py
+### product.py:
 Contains the Product class for managing insurance products. This includes creating, updating, and removing products.
 
-### payment.py
+### payment.py:
 Contains the Payment class for managing payments. This includes processing payments and associating them with policyholders and products.
 
-### demonstration.py
+### demonstration.py:
 Demonstrates the functionality of the system by creating policyholders, products, processing payments, and displaying policyholder details based on user input.
 
 ## Setup Instructions
