@@ -1,22 +1,20 @@
-# Policy-Management-System
-## Overview
-This project implements a policy management system for an insurance company. It manages policyholders, products, and payments.
+### policyholder.py
+Contains the Policyholder class for managing policyholders. This includes registration, suspension, reactivation, and handling payments.
 
-## Structure
-- 'policyholder.py': Contains the 'policyholder class for managing policyholders.
-- 'product.py': Contains the 'Product' class for managing insurance products.
-- 'payment.py': Contains the 'Payment' class for managing payments.
-- 'demonstration.py': Demonstrates the functionality of the system.
+### product.py
+Contains the Product class for managing insurance products. This includes creating, updating, and removing products.
 
-### Steps to Follow
-1. Create separate files for each class as shown above.
-2. Implement methods as specified in the assignment description.
-3. Use the demonstraton.py script to demonstrate the functionality by creating policyholders and processing payments.
+### payment.py
+Contains the Payment class for managing payments. This includes processing payments and associating them with policyholders and products.
 
-## Instructions
+### demonstration.py
+Demonstrates the functionality of the system by creating policyholders, products, processing payments, and displaying policyholder details based on user input.
+
+## Setup Instructions
 1. Clone the repository.
 2. Navigate to the project directory.
-3. Run 'policyholder.py' file
-4. Run 'product.py' file
-5. Run 'payment.py' file
-6. Run 'demonstration.py' to see a demonstration of the system.
+3. run demonstration.py
+
+## Note
+1. Ensure all class files (policyholder.py, product.py, payment.py) are in the same directory as the demonstration.py file
+2. The demonstration.py script is designed to demonstrate the functionalities pf the policy mangement system
