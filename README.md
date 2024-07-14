@@ -1,3 +1,6 @@
+## Overview
+This project implements a policy management system for an insurance company. it manages policyholders, products, and payments
+
 ### policyholder.py
 Contains the Policyholder class for managing policyholders. This includes registration, suspension, reactivation, and handling payments.
 
